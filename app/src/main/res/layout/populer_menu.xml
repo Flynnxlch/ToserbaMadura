@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/pop_img"
+            android:layout_width="280dp"
+            android:layout_height="190dp"
+            app:riv_corner_radius="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pop_promo"/>
+
+        <TextView
+            android:id="@+id/popname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Nge Game 1 (PS5)"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/popdec"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Deskripsi"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ratingbar"
+                android:layout_marginLeft="-5dp"/>
+
+            <TextView
+                android:id="@+id/pop_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5.0"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/roboto_medium"/>
+
+            <TextView
+                android:id="@+id/pop_harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="20K"
+                android:gravity="end"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

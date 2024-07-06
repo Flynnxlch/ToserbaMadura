@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToserbaMadura</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="profile">Profile</string>
+    <string name="category">Kategori</string>
+    <string name="offers">Penawaran</string>
+    <string name="product">Produk Baru</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum arcu vel quam congue blandit. Duis et elit commodo, vestibulum massa sed, imperdiet nisl. Pellentesque sit amet massa enim. Phasellus enim libero, tincidunt vitae ultrices pellentesque, iaculis ac diam. Integer mi sapien, aliquet sed sagittis nec, suscipit in odio. Fusce feugiat faucibus arcu, vitae fringilla nibh rutrum congue. Donec vehicula dolor ut mollis lobortis. Nullam mollis lacinia nulla. Duis nec mi est.</string>
+    <string name="order">Pesanan</string>
+    <string name="cart">Keranjang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

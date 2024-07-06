@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PlaceOrderActivity">
+    
+    <TextView
+        android:id="@+id/textbayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Melakukan Pembayaran"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/qrbayar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/qrpayment"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textbayar" />
+
+    <TextView
+        android:id="@+id/textqris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Scan Qr Untuk Bayar"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrbayar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
